@@ -10,7 +10,9 @@ const config: ExpoConfig = {
   splash: {},
   assetBundlePatterns: ['**/*'],
   ios: { supportsTablet: true },
-  android: {},
+ android: {
+    package: "com.khalilahmad99999.eventmate", // <-- Add this line here
+  },
   plugins: ['expo-router'],
   extra: {
     eas: {
