@@ -1,5 +1,4 @@
 import { ExpoConfig } from '@expo/config';
-
 const config: ExpoConfig = {
   name: 'EventMate',
   slug: 'eventmate',
@@ -8,16 +7,15 @@ const config: ExpoConfig = {
   orientation: 'portrait',
   icon: './assets/icon.png',
   userInterfaceStyle: 'light',
-  splash: {
-  
-  },
+  splash: {},
   assetBundlePatterns: ['**/*'],
-  ios: {
-    supportsTablet: true
-  },
-  android: {
- },
-  plugins: ['expo-router']
+  ios: { supportsTablet: true },
+  android: {},
+  plugins: ['expo-router'],
+  extra: {
+    eas: {
+      projectId: '9d789ab9-cfae-41e3-ad89-66ad23708349'
+    }
+  }
 };
-
 export default config;
