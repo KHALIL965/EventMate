@@ -1,0 +1,14 @@
+[
+  {
+    "id": "e-123",
+    "title": "Design Systems at Scale - Updated",
+    "startAt": "2025-08-14T10:00:00.000Z",
+    "endAt": "2025-08-14T11:00:00.000Z",
+    "venueName": "Hall A",
+    "latitude": 37.7858,
+    "longitude": -122.4010,
+    "description": "Updated session content.",
+    "imageUrl": "https://picsum.photos/seed/e123/800/500",
+    "updatedAt": "2025-08-13T09:20:00.000Z"
+  }
+]
